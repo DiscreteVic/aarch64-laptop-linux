@@ -1,0 +1,3 @@
+[submodule "grub"]
+	path = grub
+	url = https://gitlab.freedesktop.org/gnu-grub/grub.git

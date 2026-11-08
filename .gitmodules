@@ -1,3 +1,12 @@
 [submodule "grub"]
 	path = grub
 	url = https://gitlab.freedesktop.org/gnu-grub/grub.git
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/qualcomm-linux/kernel.git
+	branch = qcom-7.3
+	shallow = true
+[submodule "busybox"]
+	path = busybox
+	url = https://git.busybox.net/busybox/
+	branch = master

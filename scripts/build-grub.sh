@@ -13,7 +13,7 @@ cd ../grub
 mkdir build
 cd build
 
-../configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-platform=efi TARGET_CC=$CROSS_COMPILE
+../configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-platform=efi TARGET_CC=$CROSS_COMPILEgcc
 
 make -j${nproc}
 

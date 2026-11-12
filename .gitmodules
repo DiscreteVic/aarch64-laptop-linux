@@ -5,7 +5,6 @@
 	path = kernel
 	url = https://github.com/qualcomm-linux/kernel.git
 	branch = qcom-7.3
-	shallow = true
 [submodule "busybox"]
 	path = busybox
 	url = https://git.busybox.net/busybox/
